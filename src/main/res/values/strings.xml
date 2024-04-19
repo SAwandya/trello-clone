@@ -1,0 +1,115 @@
+<resources>
+
+    <string name="app_name">TaskMate</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on TaskMaker\'s Minimalist Interface</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <!-- Sign up and Sign in activity -->
+
+    <string name="sign_up_description_text">Sign up to continue</string>
+    <string name="sign_up_continue_text">Or continue with:</string>
+    <string name="name">Name</string>
+    <string name="sign_in_google_btn_text">Google</string>
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in_description_text">Sign in to continue</string>
+
+    <!-- app bar -->
+
+    <string name="appbar_name_text">Sachila Awana...</string>
+
+    <!-- create board activity -->
+
+    <string name="create_nav_topic">Create board</string>
+    <string name="create_board_text">Board name</string>
+    <string name="create_work_space_text">Work space</string>
+    <string name="create_visibility_text">Visibility</string>
+    <string name="create_button_text">Create board</string>
+
+    <!-- Invite activity -->
+
+    <string name="invite_nav_text">Invite member</string>
+    <string name="invite_description_text">Add users to the workspace: sachila manamperi\'s Workspace</string>
+    <string name="invite_addlink_text">ADD FROM CONTACTS</string>
+    <string name="invite_workspace_text">Work space</string>
+    <string name="invite_sharelink_text">OR SHARE A LINK</string>
+    <string name="invite_add_button_text">ADD</string>
+
+    <!-- main activity -->
+
+    <string name="main_topic_text">sachila manamperi\'s work space</string>
+    <string name="main_board_text">Basic Board</string>
+    <string name="main_share_btn_text">SHARE</string>
+
+    <!-- profile activity -->
+
+    <string name="profile_name_text">Sachila manamperi</string>
+    <string name="profile_username_text">#sachilamanamperi</string>
+    <string name="profile_email_text">sachilaawandya89@gmail.com</string>
+    <string name="profile_board_text">Boards</string>
+    <string name="profile_workspace_topic_text">Workspaces</string>
+    <string name="profile_workspace_tab_text">sachila manaperi\'s workspace</string>
+    <string name="profile_mycard_tab_text">My cards</string>
+    <string name="profile_offline_tab_text">Offline boards</string>
+    <string name="profile_setting_tab_text">Settings</string>
+
+    <!-- To do activity -->
+
+    <string name="todo_nav_text">Sachila Awanadya...</string>
+    <string name="todo_card_topic">To-Do</string>
+    <string name="todo_tubtask_text1">This is a card! Select it to see it\'s card back</string>
+    <string name="todo_tubtask_text2">Hold and drag to move this card to another list</string>
+    <string name="todo_tubtask_text3">Invite collaborators to your board by selecting the menu to the right of the notification</string>
+    <string name="todo_addcard_btn_text">+ Add card</string>
+    <string name="todo_photo_btn_text">This is card with the photo</string>
+    <string name="todo_adlist_btn_text">Add list</string>
+
+    <!-- workspace activity -->
+
+    <string name="workspace_nav_text">Workspace menu</string>
+    <string name="workspace_name_text">Sachila manamperies\'s Workspace</string>
+    <string name="workspace_sub_text">sachilamanamperiesworkspace (Free)</string>
+    <string name="workspace_member_name_text">Members</string>
+    <string name="workspace_invite_btn_text">Invite</string>
+
+    <!-- card activity -->
+
+    <string name="card_nav_text">Doing</string>
+    <string name="card_topic_text">This card has an attachment.</string>
+    <string name="card_action_text">Quick Action</string>
+    <string name="card_sub_topic_text">Baic Board in list Doing</string>
+    <string name="card_checklist_text">Add checklist</string>
+    <string name="card_attach_text">Add Attachment</string>
+    <string name="card_member_text">Members</string>
+    <string name="card_label_text">Labels...</string>
+    <string name="card_start_date_text">Start date...</string>
+    <string name="card_due_date_text">Due date...</string>
+    <string name="card_attachment_text">Attachemnt</string>
+    <string name="card_image_attachment_text">Image Attachemnt</string>
+
+    <!-- Onboard 01 activity -->
+
+    <string name="onboard01_topic_text">Welcome to TaskMate!</string>
+    <string name="onboard01_description_text">Organize tasks effortlessly, collaborate seamlessly, and achieve project success together with your team.</string>
+    <string name="onboard01_next_btn_text">Next</string>
+    <string name="onboard01_skip_btn_text">Skip</string>
+
+    <!-- Onboard 02 activity -->
+
+    <string name="onboard02_topic_text">Creating your first project</string>
+    <string name="onboard02_description_text">Customize columns, add tasks, and invite team members to kickstart collaboration instantly</string>
+
+    <!-- Onboard 03 activity -->
+
+    <string name="onboard03_topic_text">Track progress effortlessly</string>
+    <string name="onboard03_description_text">Set due dates, assign tasks, and monitor project milestones with TaskMate\'s intuitive dashboard</string>
+
+
+
+
+</resources>

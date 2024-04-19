@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateBoardActivity">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:id="@+id/myToolBar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:backgroundTint="@color/colorPrimary"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/close_board"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/close"
+                app:tint="@color/white"
+                android:layout_gravity="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_nav_topic"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginStart="100dp"
+                />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginEnd="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginTop="30dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/create_board_text"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/et_text_size"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginEnd="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginTop="30dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_work_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/create_work_space_text"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/et_text_size"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginEnd="@dimen/authentication_screen_marginStartEnd"
+        android:layout_marginTop="30dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_visibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/create_visibility_text"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/et_text_size"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/create_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/btn_marginStartEnd"
+        android:layout_marginTop="@dimen/sign_up_screen_btn_marginTop"
+        android:layout_marginEnd="@dimen/btn_marginStartEnd"
+        android:background="@drawable/shape_button_rounded"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_paddingTopBottom"
+        android:paddingBottom="@dimen/btn_paddingTopBottom"
+        android:text="@string/create_button_text"
+        android:backgroundTint="#387ADF"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_text_size"/>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".IntroActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/intro_background"
+    >
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/intro_screen_title_text_marginTop"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_contentDescription"
+        android:src="@drawable/onboard2"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboard02_topic_text"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="19dp"
+        android:lineSpacingExtra="@dimen/intro_text_line_spacing_extra"
+        android:text="@string/onboard02_description_text"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="35dp"
+            android:layout_height="21dp"
+            android:src="@drawable/dot_black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="35dp"
+            android:layout_height="21dp"
+            android:src="@drawable/dot_green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="35dp"
+            android:layout_height="21dp"
+            android:src="@drawable/dot_black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <Button
+            android:id="@+id/onboard2_next"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="28dp"
+
+            android:background="@drawable/shape_button_boardered"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="@dimen/btn_paddingTopBottom"
+            android:paddingBottom="@dimen/btn_paddingTopBottom"
+            android:text="@string/onboard01_next_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.763" />
+
+        <Button
+            android:id="@+id/onboard2_skip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_button_boardered"
+
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="@dimen/btn_paddingTopBottom"
+            android:paddingBottom="@dimen/btn_paddingTopBottom"
+            android:text="@string/onboard01_skip_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/onboard2_next"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.763"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</LinearLayout>
